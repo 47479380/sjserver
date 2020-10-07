@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">手机服务器</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">永恒的小黑屋</string>
+    <string name="nav_header_subtitle">2752181597@qq.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+
+    <string name="menu_home">手机服务器</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="wifi_open">已启用WIFI</string>
+    <string name="wifi_ap_open">已启用WIFI热点</string>
+    <string name="network_close">未开启无线网络</string>
+    <string name="server_start_btn_text">启动服务</string>
+    <string name="server_close_btn_text">关闭服务</string>
+    <string name="tips_text_open">在浏览器访问:</string>
+    <string name="tips_text_off">启动后可以从浏览器远程管理手机文件</string>
+    <string name="wifi_ap_address_text">http://192.168.43.1</string>
+    <string name="title_activity_web_settings">Web服务设置</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="port_title">端口</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string  name="default_port" type="int">8090</string>
+</resources>

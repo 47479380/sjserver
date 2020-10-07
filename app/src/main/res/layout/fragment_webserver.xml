@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/network_status_img"
+        android:layout_width="94dp"
+        android:layout_height="94dp"
+        app:layout_constraintBottom_toTopOf="@+id/network_status_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_wifi_black_24dp"
+         />
+
+    <TextView
+        android:id="@+id/network_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/network_close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tips_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/tips_text_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/network_status_text" />
+
+    <TextView
+        android:textIsSelectable="true"
+        android:visibility="gone"
+        android:id="@+id/network_address_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://192.168.43.1:8090"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tips_text"
+        android:textColor="@color/colorPrimary"/>
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <Button
+
+            android:id="@+id/start_server_btn"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginBottom="44dp"
+            android:background="@color/colorPrimary"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="@string/server_start_btn_text"
+            android:textColor="@color/colorPrimaryDarkText"
+
+            tools:targetApi="m" />
+    </LinearLayout>
+    http://10.0.2.15:8090
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
