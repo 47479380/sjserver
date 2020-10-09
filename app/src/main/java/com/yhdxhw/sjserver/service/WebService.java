@@ -12,6 +12,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.nfc.Tag;
 import android.os.Binder;
+import android.os.Build;
 import android.os.Environment;
 import android.os.IBinder;
 import android.util.Log;
@@ -84,7 +85,12 @@ public class WebService extends Service {
         }
 
         public void stopServer() {
+
+
             httpServer.stop();
+
+                stopForeground(true);
+
         }
 
         /**
